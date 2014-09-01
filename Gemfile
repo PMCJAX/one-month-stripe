@@ -15,6 +15,9 @@ gem 'pg', group: :production
 # Add 12-factor for Heroku
 gem 'rails_12factor', group: :production
 
+# Add bootstrap for UI
+gem 'bootstrap-sass'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
@@ -35,6 +38,8 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
