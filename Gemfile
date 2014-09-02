@@ -17,6 +17,7 @@ gem 'rails_12factor', group: :production
 
 # Add bootstrap for UI
 gem 'bootstrap-sass'
+gem 'sprockets', '~> 2.11.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'

@@ -134,6 +134,7 @@ DEPENDENCIES
   rails_12factor
   sass-rails (~> 4.0.2)
   sdoc
+  sprockets (~> 2.11.0)
   sqlite3
   turbolinks
   tzinfo-data
