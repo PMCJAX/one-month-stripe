@@ -22,6 +22,9 @@ gem 'sprockets', '~> 2.11.0'
 # Use stripe for payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
+# Figaro gem for securely managing credentials
+gem 'figaro'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
